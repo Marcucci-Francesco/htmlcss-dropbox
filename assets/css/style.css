@@ -180,6 +180,17 @@ main .container-main.d-flex{
   text-align: center;
 }
 
+main .d-flex.enter{
+  margin-top: 40px;
+}
+
+main .card.text{
+  width: 70%;
+}
+
+main .card.text-team{
+  width: 100%;
+}
 /*/Main*/
 
 
