@@ -329,6 +329,7 @@ main .container-main.d-flex.operazioni .card.title{
 
 main .container-main.end-main{
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 main .container-main.end-main a#button{
@@ -354,6 +355,45 @@ main .container-main.end-main a#button:hover{
 
 /*Footer*/
 
+footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer .container-top{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+footer .container-top li{
+  list-style: none;
+  padding: 5px 5px;
+  font-size: 0.9rem;
+}
+
+footer .container-top h3{
+  padding-left: 5px;
+  padding-bottom: 20px;
+}
+
+footer .container-top ul{
+  padding-bottom: 60px;
+}
+
+.container-foot{
+  width: 850px;
+  padding-top: 50px;
+}
+
+.container-foot p{
+  padding: 40px 5px;
+  font-size: 0.8rem;
+  color: #818079;
+}
 
 /*/Footer*/
 
