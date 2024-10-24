@@ -138,6 +138,7 @@ header .top{
 
 /*Main*/
 
+/*Business*/
 main{
   margin-top: 100px;
   border-top: 1px solid #F8F8F8;
@@ -172,11 +173,12 @@ main h3 {
 main .container-main .card .fa-solid{
   color: black;
 }
+/*/Business*/
 
+/*Enterprise*/
 main .container-main.d-flex{
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 30px;
   text-align: center;
 }
 
@@ -191,6 +193,38 @@ main .card.text{
 main .card.text-team{
   width: 100%;
 }
+/*/Enterprise*/
+
+/*Partner*/
+main .container-main.d-flex#partner{
+  justify-content: center;
+  margin-top: 60px;
+}
+
+main .container-main.d-flex#partner img{
+  width: 50%;
+}
+
+main .container-main.d-flex#partner .col{
+  width: 50%;
+}
+
+main .container-main.d-flex#partner .col p{
+  padding-bottom: 15px;
+}
+/*/Partner*/
+
+/*Operazioni*/
+main .container-main.d-flex.operazioni .card img{
+  width: 100%;
+}
+
+main .container-main.d-flex.operazioni .card.title{
+  width: 100%;
+}
+
+
+/*/Operazioni*/
 /*/Main*/
 
 
